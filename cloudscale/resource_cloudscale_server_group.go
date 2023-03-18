@@ -3,7 +3,7 @@ package cloudscale
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/cloudscale-ch/cloudscale-go-sdk"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/http"
 	"strings"
 	"testing"
