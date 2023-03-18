@@ -3,7 +3,7 @@ package cloudscale
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/http"
 	"strings"
 	"testing"
